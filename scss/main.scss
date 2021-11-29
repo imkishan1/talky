@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import './nav';
+@import './frontsection';
+@import './section2';
+@import './section3';
+@import './userfeedback';
+@import './download';
+@import './footer';
+@import './mediaqueries';
+@import './newsletter';
+@import './mediaqueries';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container80{
+    width: 80%;
+    margin: 0 auto;
+}
+.container90{
+    width: 90%;
+    margin: 0 auto;
+}
+.container95{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.sub-para{
+    font-size: 1em;
+    color: #6e7275;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.mv-dn{
+    transform: translateY(18px) !important;
+}
+.mv-dn2{
+    transform: translate(10px, 33px) !important;
+}
+
+.w600px{
+    max-width: 500px !important;
+}
+
+.title{
+    margin: 0 auto;
+    // border: 1px solid red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    span{
+        padding: 2px 8px;
+        width: fit-content !important;
+        background: #6176f2;
+        border-radius: 6px;
+        color: aliceblue;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        box-shadow: 0 0 25px #6177f267;
+    }
+    h2{
+        word-spacing: 2px;
+        font-size: 2em;
+        max-width: 400px;
+        font-weight: 700;
+    }
+}
+
+.apple-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.tdn{
+    text-decoration: none !important;
+}

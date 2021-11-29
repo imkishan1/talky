@@ -1,0 +1,71 @@
+.section3{
+    padding-bottom: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    // align-items: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    .images{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 50%;
+        // background-color: red;
+        .svg-img-size{
+            width: 75%;
+            height: auto;
+        }
+    }
+    .section-txt{
+        flex: 1 1 50%;
+        // background: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        h1{
+            font-size: 2em;
+            max-width: 500px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        p{
+            max-width: 500px;
+            font-size: 1em;
+            color: #6e7275;
+            font-weight: 400;
+            text-align: left;
+            // margin-top: 14px;
+            // max-width: 400px;
+        }
+        .learn-more{
+            padding: 5px 12px;
+            border: 2px solid #6e727518;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 40px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.3s all ease-in-out;
+        }
+        .learn-more:hover{
+            border: 2px solid #6e72754f;
+        }
+    }
+}
+
+
+.flex-center{
+    
+    align-items: flex-end !important;
+}
+
+
+
+// .bg-shapes{
+//     background-image: url('/dist/assests/Curve\ Line.svg');
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
